@@ -136,7 +136,7 @@ void draw_grass()// Rumput
 	glPushMatrix();
 
     glDisable(GL_LIGHTING);
-	 glColor3f (0.0,1.0,0.0);//Green
+    glColor3f(0.13333,0.545098,0.13333);//forest green
 	double i;
 	glBegin(GL_LINES); //draw mesh
 	for(i=-2500.0;i<=2500;i+=0.5)
