@@ -131,12 +131,12 @@ void display (void)
     glutSwapBuffers();
 }
 
-void draw_grass()
+void draw_grass()// Rumput
 {
 	glPushMatrix();
 
     glDisable(GL_LIGHTING);
-	glColor3f(0.0f, 0.0f, 1.0f);//Blue
+	 glColor3f (0.0,1.0,0.0);//Green
 	double i;
 	glBegin(GL_LINES); //draw mesh
 	for(i=-2500.0;i<=2500;i+=0.5)
@@ -242,12 +242,12 @@ void draw_body()
 	glPopMatrix();
 }
 
-void draw_rotor()
+void draw_rotor()//BALING-BALING
 {
 	glPushMatrix();
 
 	glDisable(GL_LIGHTING);
-	glColor4f(0.75294117647058823529411764705882,0.75294117647058823529411764705882,0.75294117647058823529411764705882,1.0);//silver
+	glColor3f (1.0,0.0,0.0);//Merah
 	glLineWidth(5.0);
 
 	glBegin(GL_LINES);//fan stick
@@ -286,12 +286,12 @@ void draw_rotor()
 
 }
 
-void draw_tail()
+void draw_tail()//EKOR HELI
 {
   //tail of heli
   glPushMatrix();
   	glDisable(GL_LIGHTING);
-	glColor4f(0.4,0.4,0.4,1.0);//grey
+	glColor3f(0.0,0.0,1.0);//BIRU TUA
 
   glBegin(GL_LINE_LOOP);
   glVertex3f(1.2,-2.0,-9.0);
@@ -328,12 +328,12 @@ void draw_tail()
 
 }
 
-void draw_leg()
+void draw_leg()//KAKI HELI
 {
   glPushMatrix();
 
   	glDisable(GL_LIGHTING);
-	glColor4f(0.7,0.7,0.7,1.0);//grey
+	glColor3f(0.0,0.0,1.0);//BIRU TUA
 
   glBegin(GL_LINES);
   //first leg

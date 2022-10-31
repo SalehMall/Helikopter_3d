@@ -35,3 +35,9 @@
 	<stdlib.h>
 	<string.h>
 
+1667225813 source:c:\users\asus\documents\semester 3\3d-helicopter-opengl\main.cpp
+	<stdlib.h>
+	<GL/glut.h>
+	<math.h>
+	<string.h>
+
