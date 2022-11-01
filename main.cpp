@@ -760,3 +760,16 @@ int main (int argc, char **argv) {
 
     glutMainLoop ();
 }
+// KODE WARNA
+//Hitam = glColor3f(0.0, 0.0, 0.0);
+//Putih = glColor3f(1.0, 1.0, 1.0);
+//Merah = glColor3f(1.0, 0.0, 0.0);
+//Kuning = glColor3f(1.0, 1.0, 0.0);
+//Hijau = glColor3f(0.0, 1.0, 0.0);
+//Ungu = glColor3f(0.53, 0.12, 0.47);
+//Biru = glColor3f(0.0, 0.0, 1.0);
+//Pink = glColor3f(1.0, 0.43, 0.78);
+//Cyan = glColor3f(0.0, 1.0, 1.0);
+//Tosca = glColor3f(0.0, 1.0, 1.0);
+//Abu-abu = glColor3f(0.75, 0.75, 0.75);
+//Orange = glColor3f(1.0, 0.5, 0.0);
