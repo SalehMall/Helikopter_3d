@@ -1,6 +1,8 @@
+/* NAMA : MUH.SALEH BADAWI */
+/* NIM : E1E121069 */
 /*the package draws a helicopter withe a helipa */
-#include<stdlib.h>
 #include <GL/glut.h>
+#include<stdlib.h>
 #include <math.h>
 
 #include<string.h>
